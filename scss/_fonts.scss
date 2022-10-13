@@ -1,1 +1,50 @@
-/* Shriftlar ashetta keladi */
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../fonts/FredokaOne-Regular.woff2') format('woff2'),
+        url('../fonts/FredokaOne-Regular.woff') format('woff'),
+        url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-SemiBold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-SemiBold.woff') format('woff'),
+        url('../fonts/HindMadurai-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Regular.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Regular.woff') format('woff'),
+        url('../fonts/HindMadurai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

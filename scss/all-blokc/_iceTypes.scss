@@ -1,0 +1,37 @@
+.iceTypes {
+    background-color: $light-pink;
+    margin-top: 100px;
+
+    &__container {
+        display: flex;
+        max-height: 544px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44.2px;
+        line-height: 49px;
+        max-width: 349px;
+        color: #150101;
+    }
+
+
+        &__desc {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #150101;
+            opacity: 0.6;
+            max-width: 442px;
+            padding: 16px 0 35px 0;
+        }
+
+        &__img img {
+            width: 655px;
+        }
+    }

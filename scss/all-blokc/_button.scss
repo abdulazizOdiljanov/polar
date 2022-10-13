@@ -1,5 +1,20 @@
-.button {
-    padding: 0;
+.btn {
+    padding: 14px 50px;
     margin: 0;
-    text-decoration: none;
+    background-color: $pink;
+    border: none;
+    border-radius: 5px;
+
+    a {
+        text-decoration: none;
+        font-family: "Hind Madurai";
+        font-weight: 700;
+        color: $white;
+    }
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        opacity: .5;
+    }
 }

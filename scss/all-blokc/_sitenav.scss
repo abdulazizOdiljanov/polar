@@ -1,0 +1,27 @@
+.header {
+    &__navbar {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 40px;
+    }
+
+    .navbar__item {
+        &--linc {
+            color: #150101;
+            text-decoration: none;
+            font-family: "roboto";
+            font-weight: 400;
+            opacity: 0.6;
+        }
+
+        &--linc:hover {
+            color: $pink;
+            opacity: 1;
+        }
+
+        &--linc:active {
+            opacity: .5;
+        }
+    }
+}

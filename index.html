@@ -1,20 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Starter Scss</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header></header>
 
-    <!-- MAIN -->
-    <main></main>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <link rel="shortcut icon" href="./img/Logo/logo.svg" type="image/x-icon">
+  <title>Polar</title>
+</head>
 
-    <!-- FOOTER -->
-    <footer></footer>
-  </body>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="./img/Logo/logo.svg" alt="Site logo" class="header__logo--img">
+      </div>
+      <ul class="header__navbar">
+        <li class="navbar__item">
+          <a href="#" class="navbar__item--linc">Home</a>
+        </li>
+        <!-- =============== -->
+        <li class="navbar__item">
+          <a href="#" class="navbar__item--linc">Product</a>
+        </li>
+        <!-- =============== -->
+        <li class="navbar__item">
+          <a href="#" class="navbar__item--linc">Pricing</a>
+        </li>
+        <!-- =============== -->
+        <li class="navbar__item">
+          <a href="#" class="navbar__item--linc">Testimonials</a>
+        </li>
+        <!-- =============== -->
+        <li class="navbar__item">
+          <a href="#" class="navbar__item--linc">Contact Us</a>
+        </li>
+        <!-- =============== -->
+      </ul>
+      <button class="header__btn btn"><a href="#">Buy Now</a></button>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__texts">
+          <p class="hero__text">Sweet fun, full of milk.</p>
+          <h1 class="hero__title--text">Feel inside cold with our delicious <span>ice-cream.</span></h1>
+          <p class="hero__desc--text">Some food has looked so awful that it's looked like something that the dog's
+            brought home, yet after one mouthful I've been left eating my thoughts, my words.</p>
+          <button class="hero__btn btn"><a href="#">Buy Now</a></button>
+        </div>
+        <div class="hero__img">
+          <img src="./img/hero/hero__img.png" alt="hero img">
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container services__container">
+        <div class="services__card">
+          <img src="./img/services/1.png" alt="Free Shipping" class="services__card--img">
+          <h3 class="services__card--title">Free Shipping</h3>
+          <p class="services__card--desc">Last Chance! Free shipping on all orders ends today.</p>
+        </div>
+        <!-- ##################### -->
+        <div class="services__card">
+          <img src="./img/services/2.png" alt="Quick Packaging" class="services__card--img">
+          <h3 class="services__card--title">Quick Packaging</h3>
+          <p class="services__card--desc">Last Chance! Free shipping on all orders ends today.</p>
+        </div>
+        <!-- ##################### -->
+        <div class="services__card">
+          <img src="./img/services/3.png" alt="100% Money Back" class="services__card--img">
+          <h3 class="services__card--title">100% Money Back</h3>
+          <p class="services__card--desc">Last Chance! Free shipping on all orders ends today.</p>
+        </div>
+        <!-- ##################### -->
+        <div class="services__card">
+          <img src="./img/services/4.png" alt="Fast Delivery" class="services__card--img">
+          <h3 class="services__card--title">Fast Delivery</h3>
+          <p class="services__card--desc">Last Chance! Free shipping on all orders ends today.</p>
+        </div>
+        <!-- ##################### -->
+      </div>
+    </section>
+
+    <section class="iceTypes" id="iceTypes">
+      <div class="container iceTypes__container">
+        <div class="iceTypes__texts">
+          <h2 class="iceTypes__title">Brown Sugar Oatmea</h2>
+          <p class="iceTypes__desc">Together with McDonald’s, Burger King has grown to become synonymous with burgers in
+            the US.Together with McDonald’s, Burger King has grown to become synonymous.</p>
+          <button class="iceTypesBtn btn"><a href="#">See Details</a></button>
+        </div>
+        <div class="iceTypes__img">
+          <img src="./img/iceTypes/IceTypes.png" alt="Brown Sugar Oatmea" class="iceTypes__img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container products__container">
+        <h2 class="products__title">Our Product</h2>
+        <ul class="products__list">
+          <li><a href="#">ICE CREAM</a></li>
+          <li><a href="#">CAYENNE CHOCOLATE</a></li>
+          <li><a href="#">CAKE BATTER</a></li>
+          <li><a href="#">CANDY CANE</a></li>
+          <li><a href="#">PLATTERS</a></li>
+          <li><a href="#">DESSERT</a></li>
+        </ul>
+        <!-- ######################################### -->
+        <div class="products__card">
+          <img src="./img/products/1.png" alt="Brown bread" class="products__card--img" />
+          <div class="products__texts">
+            <h3 class="products__card--title">Brown bread</h3>
+            <p class="products__card--desc">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+            <p class="products__card--text">$19.55 <del>$22.55</del></p>
+            <button class="btn products__card--btn"><a href="#">Buy Now</a></button>
+          </div>
+        </div>
+        <!-- ######################################### -->
+        <div class="products__card">
+          <div class="products__texts">
+            <h3 class="products__card--title">Cayenne chocolate</h3>
+            <p class="products__card--desc">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+            <p class="products__card--text">$19.55 <del>$22.55</del></p>
+            <button class="btn products__card--btn"><a href="#">Buy Now</a></button>
+          </div>
+          <img src="./img/products/2.png" alt="Cayenne chocolate" class="products__card--img" />
+        </div>
+        <!-- ######################################### -->
+        <div class="products__card">
+          <img src="./img/products/3.png" alt="Brown bread" class="products__card--img" />
+          <div class="products__texts">
+            <h3 class="products__card--title">Brown bread</h3>
+            <p class="products__card--desc">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a
+              pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+            <p class="products__card--text">$19.55 <del>$22.55</del></p>
+            <button class="btn products__card--btn"><a href="#">Buy Now</a></button>
+          </div>
+        </div>
+        <!-- ######################################### -->
+        <div class="products__card">
+          <div class="products__comments">
+            <div class="comments__top">
+              <img src="./img/products/comments/1.png" />
+              <h4>Adele A. McNeill</h4>
+            </div>
+            <p class="comment__text"><q>Thanks a lot for the prompt service. Really appreciate. Excellence taste in
+                Every
+                Bite.Add a joy of best Taste. Foodie Moments.</q></p>
+            <div class="comment__slide">
+              &lt;
+              <img src="./img/products/comments/1.png" alt="">
+              <img src="./img/products/comments/1.png" alt="">
+              <img src="./img/products/comments/1.png" alt="">
+              &gt;
+            </div>
+          </div>
+          <img src="./img/products/4.png" alt="Brown bread" class="products__card--img" />
+        </div>
+        <!-- ######################################### -->
+      </div>
+    </section>
+
+    <section class="mobile" id="mobile">
+      <div class="container mobile__container">
+        <div class="mobile__img">
+          <img src="./img/download/1.png" alt="Simple Way To Order Your Food">
+        </div>
+
+        <div class="mobile__texts">
+          <h2 class="mobile__title">Simple Way To Order Your Food</h2>
+          <p class="mobile__desc">Some food has looked so awful that it's looked like something that the dog's brought
+            home, yet after one mouthful I've been left eating my thoughts.</p>
+          <ul class="mobile__list">
+            <li class="mobile__list--item"><img src="./img/download/list/1.png" />Select Your Food</li>
+            <li class="mobile__list--item"><img src="./img/download/list/2.png" />Add To Cart</li>
+            <li class="mobile__list--item"><img src="./img/download/list/3.png" />Order Your Food</li>
+          </ul>
+          <img src="./img/download/download.png" alt="google play download" />
+          <img src="./img/download/download.png" alt="app store download" />
+        </div>
+      </div>
+    </section>
+
+    <section class="helps" id="helps">
+      <div class="container helps__container">
+        <h2 class="helps__title">Have Question in Mind? Let us help you</h2>
+        <form>
+          <label for="send ask">
+            <input type="text" placeholder="Your phone number" class="helps__input" />
+            <select class="helps__select">
+              <option selected>Question Type</option>
+            </select>
+            <input type="text" class="input" placeholder="Enter your question" />
+            <button class="helps__btn" type="submit">Send</button>
+          </label>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <ul class="first">
+        <li class="footer__logo"><img src="./img/Logo/logo.svg" alt="" class="footer__logo--img"></li>
+        <li class="footer__desc">Some food has looked so awful that it's looked like something that the dog's brought
+          home.</li>
+        <li class="footer__link">Fllow Us</li>
+        <ul class="footer__links">
+          <li class="footer__links--link">
+            <a href="https://facebook.com">
+              <img src="./img/links/Facebook.png" alt="facebook">
+            </a>
+          </li>
+          <!-- ############################################ -->
+          <li class="footer__links--link">
+            <a href="https://twitter.com">
+              <img src="./img/links/twitter.png " alt="facebook">
+            </a>
+          </li>
+          <!-- ############################################# -->
+          <li class="footer__links--link">
+            <a href="https://instagram.com">
+              <img src="./img/links/instagram.png" alt="facebook">
+            </a>
+          </li>
+          <!-- ############################################# -->
+          <li class="footer__links--link">
+            <a href="https://linkedin.com">
+              <img src="./img/links/linkedin.png" alt="facebook">
+            </a>
+          </li>
+          <!-- ################################################# -->
+        </ul> 
+      </ul>
+      <ul class="second">
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Home</a>
+        </li>
+        <!-- ################################### -->
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Product</a>
+        </li>
+        <!-- ################################### -->
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Blog</a>
+        </li>
+        <!-- ################################### -->
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Pricing</a>
+        </li>
+        <!-- ################################### -->
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Testimonials</a>
+        </li>
+        <!-- ################################### -->
+        <li class="second__item">
+          <a href="#" class="second__item--linc">Contact Us</a>
+        </li>
+        <!-- ################################### -->
+      </ul>
+      <ul class="third">
+        <li class="third__item">
+          <a href="#" class="third__item--linc">Delivery Information</a>
+        </li>
+        <!-- #################### -->
+        <li class="third__item">
+          <a href="#" class="third__item--linc">Privacy Policy</a>
+        </li>
+        <!-- #################### -->
+        <li class="third__item">
+          <a href="#" class="third__item--linc">Terms & Condition</a>
+        </li>
+        <!-- #################### -->
+        <li class="third__item">
+          <a href="#" class="third__item--linc">Search Terms</a>
+        </li>
+        <!-- #################### -->
+        <li class="third__item">
+          <a href="#" class="third__item--linc">Order & Return</a>
+        </li>
+        <!-- #################### -->
+      </ul>
+      <div class="fourth">
+        <p class="fourth__text">Newsletter</p>
+        <div class="inputs">
+          <input type="text" placeholder="Your Email" />
+          <button class="btn"><a href="#" class="btn__linc">Subscribe</a></button>
+        </div>
+        <div class="dontate">
+          <img src="./img/footer/1.png" alt="pay pal">
+          <img src="./img/footer/2.png" alt="mastercard">
+          <img src="./img/footer/3.png" alt="visa">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

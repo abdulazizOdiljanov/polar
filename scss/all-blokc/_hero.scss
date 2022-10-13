@@ -1,0 +1,50 @@
+.hero {
+    background-color: $light-pink;
+
+    // margin-top: -20px;
+    min-height: 500px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__texts {
+        // padding-left: 200px;
+        padding-top: 0px;
+    }
+
+    &__text {
+        font-family: "roboto";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.41px;
+        letter-spacing: 0.1em;
+    }
+
+    &__title--text {
+        font-family: 'Fredoka One';
+        font-weight: 400;
+        font-size: 57.33px;
+        line-height: 120.5%;
+        color: $black;
+        opacity: 0.9;
+        max-width: 665px;
+
+        span {
+            color: $pink;
+        }
+    }
+
+    &__desc--text {
+        font-weight: 400;
+        line-height: 27px;
+        max-width: 523px;
+        opacity: 0.6;
+    }
+
+    &__img img {
+        width: 597px;
+    }
+}
